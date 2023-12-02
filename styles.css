@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: "Anton", sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+      overflow-x: hidden;
+
+}
+
+.container {
+  padding-top: 50px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 50px;
+}
+#buttonId{
+  padding-right: 20px;
+}
+
+#centerNav{
+  padding-left: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbarNav {
+    justify-content: center;
+}
+
+.portrait {
+    padding-bottom: 10px;
+}
+
+.container h2 {
+    padding-top: 200px;
+}
+
+.hashtag {
+    color: blue;
+}
+
+#Projects h2 {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card-img-top {
+  padding-top: 20px;
+  max-width: 50%;
+  height: auto;
+}
+
+#Socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Socials h2 {
+  padding-top: 50px;
+}
+
+#Socials a {
+  display: flex;
+  justify-content: center;
+}
+
+#facebook img {
+  width: 60px; 
+  height: 60px; 
+}
+#facebook p {
+  padding-top: 15px;
+}
+#insta img {
+  width: 58px; 
+  height: 60px; 
+}
+#insta p {
+  padding: 15px 25px;
+
+}
+#twitter img {
+  width: 50px; 
+  height: 50px; 
+}
+#twitter p {
+padding: 10px 35px;
+margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 425px) {
+
+  #centerNav {
+    flex-direction: column;
+    align-items: center;
+    padding-right: 2rem;
+}
+
+  .container img {
+    width: auto;
+    height: auto;
+    padding-left: 1%;
+  }
+  .container h2 {
+    padding-top: 20px;
+  }
+  #Projects h2 {
+    padding-top: 50px;
+    text-align: center;
+}
+#Projects h5{
+  font-size: medium;
+}
+#Projects p {
+  font-size: small;
+}
+#card {
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+}
+
+@media only screen and (max-width: 768px) {
+  #centerNav {
+      flex-direction: column;
+      align-items: left;
+      padding-right: 2rem;
+  }
+
+  #buttonId {
+    padding-top: 1rem;
+      padding-right: 2rem;
+  }
+
+  .container img {
+      width: 100%;
+      height: auto;
+  }
+
+  .container h2 {
+      padding-top: 50px;
+  }
+
+  #Projects h2 {
+      padding-top: 50px;
+      text-align: center;
+  }
+
+  #Projects h5 {
+      font-size: medium;
+  }
+
+  #Projects p {
+      font-size: small;
+  }
+
+  #card {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+  }
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
